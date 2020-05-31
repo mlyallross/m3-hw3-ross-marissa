@@ -6,3 +6,24 @@
   border-radius: 8px;
   text-transform: uppercase;
 }
+.heading1 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #050000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.heading-span {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ee353f;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.lowercase-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #050000;
+  font-weight: 500;
+  text-transform: lowercase;
+}
