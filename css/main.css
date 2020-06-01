@@ -80,10 +80,10 @@ nav ul li {
 }
 .cta .button {
   width: 40%;
+  margin-top: 3%;
 }
 main {
   font-family: 'Roboto';
-  padding: 0 1%;
 }
 main .section1 {
   background-color: white;
@@ -97,7 +97,7 @@ main .section1 .a-section1 {
   width: 65%;
 }
 main .section1 .burger {
-  max-width: 20%;
+  max-width: 18%;
   padding: 3%;
 }
 main .section2 {
@@ -131,4 +131,74 @@ footer {
 }
 footer img {
   width: 20%;
+}
+@media (max-width: 768px) {
+  .cta {
+    position: absolute;
+    margin-top: -30%;
+    padding-left: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 45%;
+  }
+  .cta .button {
+    width: 45%;
+  }
+  .header-logo {
+    width: 220px;
+  }
+  main .section1 {
+    padding: 3%;
+    padding-left: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .section1 .a-section1 {
+    width: 70%;
+  }
+  main .section1 .burger {
+    max-width: 170px;
+    padding: 1%;
+  }
+  main .section2 {
+    background-color: #f3f3f3;
+    padding: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .bob {
+    max-width: 20%;
+    padding-left: 10%;
+  }
+  main .a-section2 {
+    width: 70%;
+    padding: 4%;
+  }
+}
+footer {
+  background-color: #080801;
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer img {
+  width: 30%;
 }
