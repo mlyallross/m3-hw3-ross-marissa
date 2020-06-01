@@ -28,18 +28,68 @@
   font-weight: 500;
   text-transform: lowercase;
 }
+.links {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #050000;
+  font-weight: 500;
+}
+.uppercase-links {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #050000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 body {
   background-color: #f8df1f;
 }
+nav ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 2%;
+  width: 100%;
+}
+nav ul li {
+  padding: 1%;
+}
+img {
+  max-width: 100%;
+}
 main {
   font-family: 'Roboto';
-  padding: 1%;
+  padding: 0 1%;
 }
 main .section1 {
   background-color: white;
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .section1 .a-section1 {
+  width: 70%;
+}
+main .section1 .burger {
+  max-width: 20%;
+  padding: 3%;
 }
 main .section2 {
   background-color: #f3f3f3;
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .section2 .bob {
+  max-width: 20%;
+  padding-left: 10%;
+}
+main .section2 .a-section2 {
+  width: 70%;
+  padding: 4%;
 }
 footer {
   background-color: #080801;

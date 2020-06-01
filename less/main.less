@@ -3,20 +3,64 @@
 body {
     background-color: @yellow;
 }
+
+// Nav
+
+nav 
+    ul {
+        list-style-type: none;
+        display: inline-flex;
+        margin: 2%;
+        width: 100%;
+
+    li {
+        padding: 1%;
+    }
+}
+
+
+
 // Header
+img {
+    max-width: 100%;
+}
 
 
 // Main
 main {
     font-family: @font;
-    padding: 1%;
+    padding: 0 1%;
 
     .section1 {
         background-color: white;
+        padding: 3%;
+        display: flex; 
+
+        .a-section1 {
+            width: 70%;
+        }
+
+        .burger {
+            max-width: 20%;
+            padding: 3%;
+        }
     }
 
     .section2 {
         background-color: @gray;
+        padding: 3%;
+        display: flex;
+
+        .bob {
+            max-width: 20%;
+            padding-left: 10%;
+    
+        }
+
+        .a-section2 {
+            width: 70%;
+            padding: 4%;
+        }
     }
 }
 
