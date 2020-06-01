@@ -14,9 +14,19 @@ nav
         width: 100%;
 
     li {
-        padding: 1%;
+        padding: 3%;
+    }
+
+    .links {
+        font-size: 18px;
+    }
+
+    .heading-span {
+        font-size: 18px;
     }
 }
+
+    
 
 
 
@@ -94,6 +104,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;  
+    margin-top: 2%;
+      
 
     img {
         width: 20%;
@@ -140,22 +152,21 @@ footer {
         }
     
         .section2 {
-            background-color: @gray;
             padding: 3%;
             display: flex;
-        }
+        
+
+            .a-section2 {
+                width: 100%;
+            }
     
             .bob {
                 max-width: 20%;
                 padding-left: 10%;
             }
-
-            .a-section2 {
-                width: 70%;
-                padding: 4%;
-            }
-        }
+     }
     }
+}
 
     // Footer
     footer {
@@ -169,3 +180,113 @@ footer {
             width: 30%;
         }
     }
+
+// max-width 375 media query
+@media (max-width: 375px) {
+    //body
+
+    body {
+        width: 100%;
+    }
+
+    // nav
+    nav { 
+        margin-left: -8%;
+
+        .links {
+            font-size: 13px;
+        }
+
+        .heading-span {
+            font-size: 13px;
+        }
+
+        ul {
+            margin: .5%;
+        }
+
+        li {
+            padding: .5%;
+        }
+        
+    }
+
+
+
+    // header
+    .cta {
+      position: absolute;
+      margin-top: -30%;
+      padding-left: 26%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+  
+      .button {
+          width: 90%;
+          margin-top: 5%;
+      }
+  }
+
+  .header-logo {
+      width: 170px;
+  }
+
+  // main 
+  main {
+
+      
+      .section1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center; 
+
+          
+          
+
+          .a-section1 {
+              width: 100%;
+
+              .button {
+                  margin-left: 30%;
+                  margin-bottom: 5%;
+              }
+          }
+  
+  
+          .burger {
+              max-width: 100px;
+              max-height: 100px;
+              padding: 1%;
+          }
+      }
+  
+      .section2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  
+          .bob {
+              max-width: 180px;
+              max-height: 150px;
+              padding-left: 1%;
+          }
+
+          .a-section2 {
+              width: 100%;
+
+              .button {
+                  margin-left: 20%;
+              }
+          }
+      }
+  
+  // Footer
+  footer {
+      img {
+          width: 35%;
+      }
+  }
+}

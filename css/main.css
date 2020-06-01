@@ -54,7 +54,13 @@ nav ul {
   width: 100%;
 }
 nav ul li {
-  padding: 1%;
+  padding: 3%;
+}
+nav ul .links {
+  font-size: 18px;
+}
+nav ul .heading-span {
+  font-size: 18px;
 }
 .header-banner {
   background-color: #3b3838;
@@ -128,6 +134,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2%;
 }
 footer img {
   width: 20%;
@@ -170,19 +177,17 @@ footer img {
     padding: 1%;
   }
   main .section2 {
-    background-color: #f3f3f3;
     padding: 3%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  main .bob {
+  main .section2 .a-section2 {
+    width: 100%;
+  }
+  main .section2 .bob {
     max-width: 20%;
     padding-left: 10%;
-  }
-  main .a-section2 {
-    width: 70%;
-    padding: 4%;
   }
 }
 footer {
@@ -201,4 +206,97 @@ footer {
 }
 footer img {
   width: 30%;
+}
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  nav {
+    margin-left: -8%;
+  }
+  nav .links {
+    font-size: 13px;
+  }
+  nav .heading-span {
+    font-size: 13px;
+  }
+  nav ul {
+    margin: .5%;
+  }
+  nav li {
+    padding: .5%;
+  }
+  .cta {
+    position: absolute;
+    margin-top: -30%;
+    padding-left: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+  }
+  .cta .button {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .header-logo {
+    width: 170px;
+  }
+  main .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section1 .a-section1 {
+    width: 100%;
+  }
+  main .section1 .a-section1 .button {
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  main .section1 .burger {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 1%;
+  }
+  main .section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .bob {
+    max-width: 180px;
+    max-height: 150px;
+    padding-left: 1%;
+  }
+  main .a-section2 {
+    width: 100%;
+  }
+  main .a-section2 .button {
+    margin-left: 20%;
+  }
+  footer img {
+    width: 35%;
+  }
 }
